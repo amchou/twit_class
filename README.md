@@ -2,8 +2,10 @@
 cleaning web corpora, playing with classification, and using WEKA
 
 
-Commands: (note that /twts/ is where my normalized tweets are stored)
+Commands:
 --------------------------------------------------------------------
+(note that /twts/ contains tweets normalized via twtt.py)
+ 
 Building .arff:
 python buildarff.py BO:twts/BarackObama.twt SC:twts/StephenAtHome.twt AK:twts/aplusk.twt KK:twts/KimKardashian.twt NT:twts/neiltyson.twt Sh:twts/shakira.twt sample.arff
 
