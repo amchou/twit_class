@@ -11,9 +11,9 @@ python buildarff.py BO:twts/BarackObama.twt SC:twts/StephenAtHome.twt AK:twts/ap
 ```
 WEKA (10-fold cross-validation):
 ```
-SVM: java -cp /u/cs401/WEKA/weka.jar weka.classifiers.functions.SMO -t sample.arff -x 10 -o
-Bayes:java -cp /u/cs401/WEKA/weka.jar weka.classifiers.bayes.NaiveBayes -t sample.arff -x 10 -o
-Trees: java -cp /u/cs401/WEKA/weka.jar weka.classifiers.trees.J48 -t sample.arff -x 10 -o
+SVM: java -cp ../WEKA/weka.jar weka.classifiers.functions.SMO -t sample.arff -x 10 -o
+Bayes:java -cp ../WEKA/weka.jar weka.classifiers.bayes.NaiveBayes -t sample.arff -x 10 -o
+Trees: java -cp ../WEKA/weka.jar weka.classifiers.trees.J48 -t sample.arff -x 10 -o
 ```
 SVM, Naive Bayes and decision trees give accuracies 49.5%,43.1%, and 47.2% respectively.
 
